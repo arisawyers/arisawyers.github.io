@@ -75,9 +75,13 @@ Fonts
 
 }
 
+html {
+    background: #000;
+}
+
 body {
     font: 3em / 1 'font', Helvetica, Arial, sans-serif;
-    color: #000;
+    color: #fff;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     margin: 10% 0% 20% 10%;
@@ -90,7 +94,7 @@ h1 {
 h2 {
     font-size: .8em;
     line-height: 1.3em;
-    color: #888;
+    color: #777;
     padding-top: 24px;
 }
 
@@ -104,13 +108,13 @@ li {
 
 a {
     text-decoration: none;
-    color: #000;
-    border-bottom: 4px solid #eee;
+    color: #fff;
+    border-bottom: 4px solid #222;
     padding-bottom: 10px;
 }
 
 a:hover {
-    border-bottom: 4px solid #000;
+    border-bottom: 4px solid #fff;
 }
 
 
@@ -123,7 +127,7 @@ IPHONE
     body {
         margin: 16% 10% 20% 10%;
     }
-    
+
 }
 
 
