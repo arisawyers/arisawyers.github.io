@@ -82,7 +82,7 @@ body {
     text-rendering: optimizeLegibility;
     width: 90%;
     margin: 0 auto;
-    margin-top: 14%;
+    margin-top: 10%;
     margin-bottom: 20%;
 }
 
@@ -120,7 +120,7 @@ IPHONE
 @media screen and (max-width:900px) {
     body {
         font-size: 10vw;
-        margin-top: 22%;
+        margin-top: 18%;
     }
     h1 {
         font-size: 14vw;
@@ -131,9 +131,12 @@ IPHONE
 
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     html {
         background: #000;
+    }
+    h1 {
+        color: rgba(255,255,255, .3);
     }
     body {
         color: #FFF;
@@ -145,5 +148,5 @@ IPHONE
     a:hover {
         border-bottom: 1px solid #FFF;
     }
-} */
+}
 
