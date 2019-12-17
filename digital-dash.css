@@ -135,10 +135,10 @@ IPHONE
     html {
         background: #000;
     }
-    h1 {
-        color: rgba(255,255,255, .3);
-    }
     body {
+        color: #FFF;
+    }
+    h2 {
         color: #FFF;
     }
     a {
